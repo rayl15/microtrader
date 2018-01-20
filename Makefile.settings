@@ -10,6 +10,7 @@ TEST_PROJECT := $(REL_PROJECT)test
 
 # Use these settings to specify a custom Docker registry
 DOCKER_REGISTRY ?= docker.io
+#DOCKER_REGISTRY ?= 935702168905.dkr.ecr.us-west-2.amazonaws.com
 
 # WARNING: Set DOCKER_REGISTRY_AUTH to empty for Docker Hub
 # Set DOCKER_REGISTRY_AUTH to auth endpoint for private Docker registry
